@@ -1,8 +1,11 @@
-# React + Vite
+## Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The React Advice Generator App is a simple web application built with React that fetches random quote from the [Advice Slip API](https://api.adviceslip.com/advice). Users can click the "Next" button to get new quote dynamically.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Random Advice Generation:** Fetches random quote from the Advice Slip API.
+- **User-Friendly Interface:** Clean and intuitive design for ease of use.
+
+The app will fetch and display a piece of advice when it is loaded.
+Click the "Next" button to fetch and display a new piece of advice.
